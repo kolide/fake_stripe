@@ -1,0 +1,49 @@
+{
+  "id": "src_1AoY7MJVXJgIb5RkBhPCXEjO",
+  "object": "source",
+  "amount": null,
+  "client_secret": "src_client_secret_abc123456",
+  "created": 1502200292,
+  "currency": null,
+  "customer": "cus_BAtYedDUGDfNbs",
+  "flow": "none",
+  "livemode": false,
+  "metadata": {
+  },
+  "owner": {
+    "address": {
+      "city": null,
+      "country": null,
+      "line1": null,
+      "line2": null,
+      "postal_code": "12345",
+      "state": null
+    },
+    "email": null,
+    "name": null,
+    "phone": null,
+    "verified_address": null,
+    "verified_email": null,
+    "verified_name": null,
+    "verified_phone": null
+  },
+  "statement_descriptor": null,
+  "status": "chargeable",
+  "type": "card",
+  "usage": "reusable",
+  "card": {
+    "exp_month": 4,
+    "exp_year": 2022,
+    "address_zip_check": "unchecked",
+    "brand": "Visa",
+    "country": "US",
+    "cvc_check": "unchecked",
+    "fingerprint": "MOA7yhA1XtZq4qKl",
+    "funding": "credit",
+    "last4": "4242",
+    "three_d_secure": "optional",
+    "address_line1_check": null,
+    "tokenization_method": null,
+    "dynamic_last4": null
+  }
+}

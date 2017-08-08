@@ -63,8 +63,8 @@ module FakeStripe
       json_response 200, fixture('create_card')
     end
 
-    get '/v1/customers/:customer_id/sources/:card_id' do
-      json_response 200, fixture('retrieve_card')
+    get '/v1/customers/:customer_id/sources/:source_id' do
+      json_response 200, fixture('retrieve_source')
     end
 
     post '/v1/customers/:customer_id/sources/:card_id' do
@@ -76,7 +76,7 @@ module FakeStripe
     end
 
     get '/v1/customers/:customer_id/sources' do
-      json_response 200, fixture('list_cards')
+      json_response 200, fixture('list_sources')
     end
 
     # Subscriptions
