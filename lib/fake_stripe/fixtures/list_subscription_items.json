@@ -1,0 +1,57 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "si_1ApeRgJVXJgIb5RkhkccVRE0",
+      "object": "subscription_item",
+      "created": 1502462944,
+      "metadata": {
+
+      },
+      "plan": {
+        "id": "kolide-cloud-base-monthly",
+        "object": "plan",
+        "amount": 200,
+        "created": 1501858856,
+        "currency": "usd",
+        "interval": "month",
+        "interval_count": 1,
+        "livemode": false,
+        "metadata": {
+
+        },
+        "name": "Kolide Cloud Base (Monthly)",
+        "statement_descriptor": "KOLIDE CLOUD BASE",
+        "trial_period_days": null
+      },
+      "quantity": 0
+    },
+    {
+      "id": "si_1ApeRjJVXJgIb5RkRSmLNdiV",
+      "object": "subscription_item",
+      "created": 1502462947,
+      "metadata": {
+
+      },
+      "plan": {
+        "id": "kolide-cloud-workstations-monthly",
+        "object": "plan",
+        "amount": 500,
+        "created": 1501858887,
+        "currency": "usd",
+        "interval": "month",
+        "interval_count": 1,
+        "livemode": false,
+        "metadata": {
+
+        },
+        "name": "Kolide Cloud for Workstations (Monthly)",
+        "statement_descriptor": "WORKSTATIONS",
+        "trial_period_days": 14
+      },
+      "quantity": 1
+    }
+  ],
+  "has_more": false,
+  "url": "\/v1\/subscription_items?subscription=sub_BC2WY8OqhlHXOH"
+}

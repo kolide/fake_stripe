@@ -1,49 +1,49 @@
 {
   "object": "list",
-  "url": "/v1/plans",
-  "count": 3,
   "data": [
     {
-    "interval": "month",
-    "name": "New plan name123",
-    "created": 1386247539,
-    "amount": 2000,
-    "currency": "usd",
-    "id": "gold21323",
-    "object": "plan",
-    "livemode": false,
-    "interval_count": 1,
-    "trial_period_days": null,
-    "metadata": {
-    }
-  },
-  {
-    "interval": "month",
-    "name": "New plan name124",
-    "created": 1386247540,
-    "amount": 2000,
-    "currency": "usd",
-    "id": "gold21324",
-    "object": "plan",
-    "livemode": false,
-    "interval_count": 1,
-    "trial_period_days": null,
-    "metadata": {
-    }
-  },
+      "id": "kolide-cloud-osquery-logging-monthly",
+      "object": "plan",
+      "amount": 300,
+      "created": 1501858914,
+      "currency": "usd",
+      "interval": "month",
+      "interval_count": 1,
+      "livemode": false,
+      "metadata": {},
+      "name": "Kolide Cloud for Osquery Logging (Monthly)",
+      "statement_descriptor": "OSQUERY LOGGING",
+      "trial_period_days": 14
+    },
     {
-    "interval": "month",
-    "name": "New plan name125",
-    "created": 1386247541,
-    "amount": 2000,
-    "currency": "usd",
-    "id": "gold21325",
-    "object": "plan",
-    "livemode": false,
-    "interval_count": 1,
-    "trial_period_days": null,
-    "metadata": {
+      "id": "kolide-cloud-workstations-monthly",
+      "object": "plan",
+      "amount": 500,
+      "created": 1501858887,
+      "currency": "usd",
+      "interval": "month",
+      "interval_count": 1,
+      "livemode": false,
+      "metadata": {},
+      "name": "Kolide Cloud for Workstations (Monthly)",
+      "statement_descriptor": "WORKSTATIONS",
+      "trial_period_days": 14
+    },
+    {
+      "id": "kolide-cloud-base-monthly",
+      "object": "plan",
+      "amount": 200,
+      "created": 1501858856,
+      "currency": "usd",
+      "interval": "month",
+      "interval_count": 1,
+      "livemode": false,
+      "metadata": {},
+      "name": "Kolide Cloud Base (Monthly)",
+      "statement_descriptor": "KOLIDE CLOUD BASE",
+      "trial_period_days": null
     }
-  }
-  ]
+  ],
+  "has_more": true,
+  "url": "/v1/plans"
 }

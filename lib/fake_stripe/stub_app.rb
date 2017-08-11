@@ -138,6 +138,28 @@ module FakeStripe
       json_response 200, fixture('retrieve_subscription')
     end
 
+    # Subscription Items
+
+    get '/v1/subscription_items' do
+      json_response 200, fixture('list_subscription_items')
+    end
+
+    post '/v1/subscription_items' do
+      json_response 200, fixture('retrieve_subscription_item')
+    end
+
+    get '/v1/subscription_items/:subscription_item_id' do
+      json_response 200, fixture('retrieve_subscription_item')
+    end
+
+    post '/v1/subscription_items/:subscription_item_id' do
+      json_response 200, fixture('retrieve_subscription_item')
+    end
+
+    delete '/v1/subscription_items/:subscription_item_id' do
+      json_response 200, fixture('retrieve_subscription_item')
+    end
+
     # Plans
     post '/v1/plans' do
       FakeStripe.plan_count += 1

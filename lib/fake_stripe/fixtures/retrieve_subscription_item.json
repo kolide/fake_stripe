@@ -1,0 +1,23 @@
+{
+  "id": "si_1ApeU6JVXJgIb5Rkz0iSOM9x",
+  "object": "subscription_item",
+  "created": 1502463095,
+  "metadata": {
+  },
+  "plan": {
+    "id": "kolide-cloud-osquery-logging-monthly",
+    "object": "plan",
+    "amount": 300,
+    "created": 1501858914,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {
+    },
+    "name": "Kolide Cloud for Osquery Logging (Monthly)",
+    "statement_descriptor": "OSQUERY LOGGING",
+    "trial_period_days": 14
+  },
+  "quantity": 1
+}
